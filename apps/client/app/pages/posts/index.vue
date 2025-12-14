@@ -16,6 +16,7 @@ const { data } = await useAsyncData(route.path, () => {
   return queryCollection('posts')
     .select('id', 'title', 'slug', 'description', 'publishedAt')
     .where('locale', '=', locale.value)
+    .order('publishedAt', 'DESC')
     .all();
 });
 setSummaryPosts(

@@ -3,7 +3,7 @@ status: 'Idea'
 createdBy: 'Black Comet'
 createdAt: 'May 5, 2025 4:00 AM'
 locale: 'en'
-slug: '1746392400000-system-design-cap-theorem'
+slug: 'system-design-cap-theorem-20251211'
 readMin: 10
 updatedAt: 'December 11, 2025 10:11 PM'
 publishedAt: '2025-12-11T00:00:00.000'
