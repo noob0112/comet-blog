@@ -1,0 +1,5 @@
+# Node dependencies
+node_modules
+
+# Lock file
+pnpm-lock.yaml
