@@ -1,0 +1,79 @@
+{
+  "common": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "posts": "Bài viết",
+    "tags": "Thẻ",
+    "search": "Tìm kiếm",
+    "readMore": "Đọc thêm",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "notFound": "Không tìm thấy trang",
+    "backToHome": "Về trang chủ"
+  },
+  "header": {
+    "title": "Blog",
+    "navigation": "Điều hướng"
+  },
+  "footer": {
+    "copyright": "Bản quyền © {year} | Mọi quyền được bảo lưu.",
+    "socialLinks": "Liên kết mạng xã hội",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "subscribeRSS": "Đăng ký qua RSS"
+  },
+  "home": {
+    "greeting": "Xin chào! Tôi là Alex.",
+    "intro": "Tôi là một lập trình viên đến từ Đức, đam mê công nghệ và chia sẻ kiến thức. Blog này phục vụ hai mục đích: chia sẻ những gì tôi biết và cải thiện kỹ năng của chính mình.",
+    "contentTypes": "Bạn sẽ tìm thấy ba loại nội dung ở đây: bài viết blog, TILs (Today I Learned - Hôm nay tôi học được), và ghi chú. Ghi chú giúp tôi tiếp thu các khái niệm mới, TILs ghi lại những khoảnh khắc học hỏi nhanh không đáng để viết thành bài đầy đủ, và bài viết blog là những bài được nghiên cứu kỹ lưỡng, được chế tác cẩn thận về các chủ đề tôi đã khám phá sâu.",
+    "closing": "Tôi hy vọng bạn tìm thấy điều gì đó hữu ích ở đây. Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, hãy liên hệ với tôi!",
+    "signature": "Trân trọng, Alex",
+    "recentPosts": "Bài viết gần đây",
+    "latestPosts": "Bài viết mới nhất",
+    "viewAllPosts": "Xem tất cả bài viết",
+    "popularTags": "Thẻ phổ biến"
+  },
+  "post": {
+    "title": "Bài viết",
+    "publishedAt": "Xuất bản {date}",
+    "updatedAt": "Cập nhật {date}",
+    "readingTime": "{minutes} phút đọc",
+    "relatedPosts": "Bài viết liên quan",
+    "tags": "Thẻ",
+    "share": "Chia sẻ",
+    "edit": "Chỉnh sửa",
+    "pagination": {
+      "previous": "Trước",
+      "next": "Tiếp",
+      "page": "Trang {page}"
+    }
+  },
+  "tag": {
+    "title": "Thẻ",
+    "postsCount": "{count} bài viết",
+    "allTags": "Tất cả thẻ",
+    "filterByTag": "Lọc theo thẻ"
+  },
+  "theme": {
+    "toggle": "Chuyển đổi giao diện",
+    "light": "Chế độ sáng",
+    "dark": "Chế độ tối",
+    "switchTo": "Chuyển sang chế độ {mode}"
+  },
+  "language": {
+    "toggle": "Đổi ngôn ngữ",
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "404": {
+    "title": "Không Tìm Thấy Trang",
+    "message": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.",
+    "backToHome": "Quay về trang chủ"
+  },
+  "meta": {
+    "title": "Blog - Chia Sẻ Kiến Thức Và Học Hỏi",
+    "description": "Blog cá nhân về phát triển web, lập trình và công nghệ.",
+    "keywords": "blog, phát triển web, lập trình, công nghệ"
+  }
+}

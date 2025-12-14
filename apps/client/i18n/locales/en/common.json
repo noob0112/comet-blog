@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "about": "About",
+  "posts": "Posts",
+  "tags": "Tags",
+  "search": "Search",
+  "readMore": "Read more",
+  "loading": "Loading...",
+  "error": "Error",
+  "notFound": "Page not found",
+  "backToHome": "Back to home"
+}

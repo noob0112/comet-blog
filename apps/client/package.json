@@ -1,0 +1,49 @@
+{
+  "name": "black-comet-blog-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint:eslint": "eslint --fix --ext .js,.ts,.vue ./app",
+    "lint:prettier": "prettier --write \"app/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
+    "lint:lint-staged": "lint-staged",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@iconify/vue": "^5.0.0",
+    "@nuxt/content": "^3.9.0",
+    "@nuxt/eslint": "1.12.1",
+    "@nuxt/fonts": "0.12.1",
+    "@nuxt/icon": "2.1.0",
+    "@nuxt/image": "2.0.0",
+    "@nuxtjs/i18n": "^10.2.1",
+    "@pinia/nuxt": "^0.11.1",
+    "@tailwindcss/vite": "^4.1.10",
+    "@vueuse/core": "^14.1.0",
+    "date-fns": "^4.1.0",
+    "eslint": "^9.39.2",
+    "nuxt": "^4.2.2",
+    "pinia": "^3.0.3",
+    "tailwindcss": "^4.1.10",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3",
+    "vue3-notion": "^0.1.46"
+  },
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@valibot/to-json-schema": "^1.5.0",
+    "daisyui": "^5.5.8",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.5.3",
+    "sass-embedded": "^1.93.3",
+    "typescript": "^5.8.3",
+    "valibot": "^1.2.0"
+  },
+  "engines": {
+    "node": "v24.12.0"
+  }
+}

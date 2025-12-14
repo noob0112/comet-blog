@@ -1,0 +1,15 @@
+{
+  "title": "Post",
+  "publishedAt": "Published {date}",
+  "updatedAt": "Updated {date}",
+  "readingTime": "{minutes} min read",
+  "relatedPosts": "Related Posts",
+  "tags": "Tags",
+  "share": "Share",
+  "edit": "Edit",
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {page}"
+  }
+}

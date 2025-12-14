@@ -1,0 +1,11 @@
+{
+  "greeting": "Hi there! I'm {name}.",
+  "intro": "I'm a developer from Vietnamese passionate about technology and knowledge sharing. This blog serves two purposes: sharing what I know and improving my own skills.",
+  "contentTypes": "You'll find three types of content here: blog posts, TILs (Today I Learned), and notes. Notes help me internalize new concepts, TILs capture quick learning moments that don't warrant full posts, and blog posts are well-researched, carefully crafted pieces about topics I've deeply explored.",
+  "closing": "I hope you find something useful here. If you have any questions or feedback, feel free to reach out!",
+  "signature": "Best, {name}",
+  "recentPosts": "Recent Posts",
+  "latestPosts": "Latest Posts",
+  "viewAllPosts": "View All Posts",
+  "popularTags": "Popular Tags"
+}
