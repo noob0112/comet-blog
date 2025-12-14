@@ -5,7 +5,6 @@ export const postRoute = {
     {
       name: 'pagination-posts',
       path: '/posts/:page(\\d*)?',
-      component: () => import('~/pages/posts/_pagination-post.vue'),
       meta: { ssr: true },
     },
     {

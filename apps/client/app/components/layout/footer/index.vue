@@ -1,22 +1,23 @@
 <script setup lang="ts">
 import { Icon } from '~/components/core';
 import { useI18n } from 'vue-i18n';
+import { COPY_RIGHT_YEAR, AuthorInfo } from '~/constants';
 
 const { t } = useI18n();
 
 const mySocialInfos = {
   github: {
-    href: 'https://github.com/noob0112',
+    href: AuthorInfo.GITHUB,
     label: () => t('footer.github'),
     icon: 'ant-design:github-outlined',
   },
   linkedin: {
-    href: '',
+    href: '#',
     label: () => t('footer.linkedin'),
     icon: 'ant-design:linkedin-outlined',
   },
   email: {
-    href: 'mailto:hoang011220@gmail.com',
+    href: `mailto:${AuthorInfo.EMAIL}`,
     label: () => t('footer.email'),
     icon: 'ant-design:mail-outlined',
   },
@@ -29,7 +30,7 @@ const mySocialInfos = {
 
     <section class="flex flex-col md:flex-row justify-center items-center gap-4 text-center md:text-left">
       <p>
-        <small>{{ $t('footer.copyright', { year: 2025 }) }}</small>
+        <small>{{ $t('footer.copyright', { year: COPY_RIGHT_YEAR }) }}</small>
       </p>
 
       <nav :aria-label="$t('footer.socialLinks')" class="flex space-x-4 text-(--color-base-content)">
