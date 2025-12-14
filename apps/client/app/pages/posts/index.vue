@@ -10,7 +10,6 @@ const { locale } = useI18n();
 const postStore = usePostStore();
 const { setSummaryPosts } = postStore;
 const { summaryPosts } = storeToRefs(postStore);
-// fetchSummaryPosts();
 
 const route = useRoute();
 const { data } = await useAsyncData(route.path, () => {

@@ -2,7 +2,6 @@
 import { ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { homeRoute, aboutRoute, postRoute } from '~/router';
-// import { ThemeSwitcher, LanguageSwitcher } from '~/components/core';
 import MenuItem from './menu-item.vue';
 
 const localePath = useLocalePath();
@@ -62,10 +61,6 @@ watch(
           <MenuItem :active="menuItem.active" :label="$t(`common.${menuItem.key}`)" :path="menuItem.path" />
         </li>
       </ul>
-      <div class="flex items-center gap-2">
-        <!-- <LanguageSwitcher />
-        <ThemeSwitcher /> -->
-      </div>
     </nav>
   </header>
 </template>
