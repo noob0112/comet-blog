@@ -1,11 +1,11 @@
 {
-  "name": "black-comet-blog",
+  "name": "comet-blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "prepare": "husky",
-    "dev:client": "pnpm --filter black-comet-blog-client dev",
+    "dev:client": "pnpm --filter comet-blog-client dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

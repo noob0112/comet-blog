@@ -1,5 +1,5 @@
 {
-  "name": "black-comet-blog-client",
+  "name": "comet-blog-client",
   "private": true,
   "type": "module",
   "scripts": {
