@@ -73,7 +73,7 @@ jobs:
 
   deploy:
     environment:
-      name: github-pages
+      name: comet-blog-client-env
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
