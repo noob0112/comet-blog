@@ -1,8 +1,13 @@
 import tailwindcss from '@tailwindcss/vite';
 
+const config = {
+  baseURL: process.env.BASE_URL || "/",
+};
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
+    baseURL: config.baseURL,
     head: {
       htmlAttrs: {
         'data-theme': 'light',
