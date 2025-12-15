@@ -18,6 +18,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: comet-blog-client-env
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
