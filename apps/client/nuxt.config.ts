@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/app.css'],
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/icon', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/content', 'nuxt-studio'],
+  modules: ['@nuxt/eslint', '@nuxt/icon', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/content'],
   router: {
     options: {
       strict: false,
