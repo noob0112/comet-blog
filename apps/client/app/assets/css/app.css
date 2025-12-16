@@ -51,7 +51,7 @@
   }
 
   body {
-    font-family: "Montserrat", sans-serif, 'IBM Plex Mono', monospace;
+    font-family: 'Montserrat', sans-serif, 'IBM Plex Mono', monospace;
     color: var(--color-base-content);
     background-color: var(--color-base-200);
   }

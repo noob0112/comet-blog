@@ -106,11 +106,4 @@ const getCSSVarValue = (varName: string) => {
   if (typeof window === 'undefined') return '';
   return getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
 };
-
-onMounted(() => {
-  console.log('Color System Check:');
-  cssVars.value.forEach((varName) => {
-    console.log(`${varName}: ${getCSSVarValue(varName)}`);
-  });
-});
 </script>

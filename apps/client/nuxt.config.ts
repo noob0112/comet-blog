@@ -1,7 +1,11 @@
 import tailwindcss from '@tailwindcss/vite';
 
+// const githubConfig = {
+//   studioGithubClientId: process.env.STUDIO_GITHUB_CLIENT_ID || '',
+//   studioGithubClientSecret: process.env.STUDIO_GITHUB_CLIENT_SECRET || '',
+// };
 const config = {
-  baseURL: process.env.BASE_URL || "/",
+  baseURL: process.env.BASE_URL || '/',
 };
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
@@ -17,7 +21,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/app.css'],
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/icon', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/content'],
+  modules: ['@nuxt/eslint', '@nuxt/icon', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/content', 'nuxt-studio'],
   router: {
     options: {
       strict: false,
@@ -47,6 +51,16 @@ export default defineNuxtConfig({
   },
   content: {
     experimental: { nativeSqlite: true },
+  },
+  studio: {
+    route: '/admin',
+    // Git repository configuration (owner and repo are required)
+    repository: {
+      provider: 'github', // 'github' or 'gitlab'
+      owner: 'your-username', // your GitHub/GitLab username or organization
+      repo: 'your-repo', // your repository name
+      branch: 'main', // the branch to commit to (default: 'main')
+    },
   },
   vite: {
     plugins: [tailwindcss()],

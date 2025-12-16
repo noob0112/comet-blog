@@ -26,8 +26,6 @@ const { data } = await useAsyncData(route.path, () => {
   return result;
 });
 
-console.log('summaryPosts posts data:', summaryPosts.value);
-
 setSummaryPosts(
   data.value?.map((post) => ({
     id: post.id,
