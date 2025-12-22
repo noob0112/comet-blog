@@ -62,7 +62,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build with Nuxt
-        run: pnpm --filter comet-blog-client generate
+        run: pnpm --filter comet-blog-client generate --preset github_pages
         env:
           BASE_URL: ${{ secrets.BASE_URL || '/nuxt-4-blog/' }}
 
