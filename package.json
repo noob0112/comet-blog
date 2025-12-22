@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky",
+    "client": "pnpm --filter comet-blog-client",
     "dev:client": "pnpm --filter comet-blog-client dev",
     "lint:eslint": "eslint --fix --ext .js,.ts,.vue ./apps",
     "lint:prettier": "prettier --write \"apps/**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",

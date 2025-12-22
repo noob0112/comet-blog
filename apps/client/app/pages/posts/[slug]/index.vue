@@ -6,13 +6,21 @@ import TableOfContents from '~/components/ui/post/table-of-contents.vue';
 const route = useRoute();
 const { locale } = useI18n();
 
-const { data: page } = await useAsyncData(route.path, () => {
-  const result = queryCollection('posts')
-    .where('locale', '=', locale.value)
-    .where('slug', '=', route.params.slug)
-    .first();
-  return result;
-});
+const { data: page } = await useAsyncData(
+  `post-${route.params.slug}-${locale.value}`,
+  () => {
+    const result = queryCollection('posts')
+      .where('locale', '=', locale.value)
+      .where('slug', '=', route.params.slug)
+      .first();
+    return result;
+  },
+  {
+    getCachedData: (key) => {
+      return useNuxtData(key).data.value;
+    },
+  },
+);
 </script>
 
 <template>
